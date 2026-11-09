@@ -20145,7 +20145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081fd852-9201-45b0-a813-bcaf8eda0bde")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 40.8783 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20251,7 +20251,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20269,7 +20269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3b5bb9-ecc2-4acb-8d5a-32393f7f2a7a")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 234.95 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20333,7 +20333,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20351,7 +20351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11705ba0-9843-464d-885c-0acaf671035b")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 29.845 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20416,7 +20416,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -20434,7 +20434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11780aa4-1870-44b8-940a-bacdf8d97081")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 92.075 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20532,356 +20532,8 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS07")
-		(at 87.63 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11780aa4-1870-44b8-940a-bacdf8d97081")
-		(property "Reference" "U1"
-			(at 87.63 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "155LP9"
-			(at 87.63 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 87.63 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 87.63 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 87.63 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
-		)
-		(pin "13"
-			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
-		)
-		(pin "12"
-			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
-		)
-		(pin "7"
-			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
-		)
-		(pin "9"
-			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
-		)
-		(pin "3"
-			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
-		)
-		(pin "5"
-			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
-		)
-		(pin "14"
-			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
-		)
-		(pin "6"
-			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
-		)
-		(pin "10"
-			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
-		)
-		(pin "2"
-			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
-		)
-		(pin "11"
-			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
-		)
-		(pin "4"
-			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
-		)
-		(pin "8"
-			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
-		)
-		(instances
-			(project "1801CPUTester"
-				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS07")
-		(at 87.63 207.645 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11780aa4-1870-44b8-940a-bacdf8d97081")
-		(property "Reference" "U1"
-			(at 87.63 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "155LP9"
-			(at 87.63 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 87.63 207.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 87.63 207.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 87.63 207.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
-		)
-		(pin "13"
-			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
-		)
-		(pin "12"
-			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
-		)
-		(pin "7"
-			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
-		)
-		(pin "9"
-			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
-		)
-		(pin "3"
-			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
-		)
-		(pin "5"
-			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
-		)
-		(pin "14"
-			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
-		)
-		(pin "6"
-			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
-		)
-		(pin "10"
-			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
-		)
-		(pin "2"
-			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
-		)
-		(pin "11"
-			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
-		)
-		(pin "4"
-			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
-		)
-		(pin "8"
-			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
-		)
-		(instances
-			(project "1801CPUTester"
-				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS07")
-		(at 87.63 220.345 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11780aa4-1870-44b8-940a-bacdf8d97081")
-		(property "Reference" "U1"
-			(at 87.63 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "155LP9"
-			(at 87.63 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 87.63 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 87.63 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 87.63 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
-		)
-		(pin "13"
-			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
-		)
-		(pin "12"
-			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
-		)
-		(pin "7"
-			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
-		)
-		(pin "9"
-			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
-		)
-		(pin "3"
-			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
-		)
-		(pin "5"
-			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
-		)
-		(pin "14"
-			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
-		)
-		(pin "6"
-			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
-		)
-		(pin "10"
-			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
-		)
-		(pin "2"
-			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
-		)
-		(pin "11"
-			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
-		)
-		(pin "4"
-			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
-		)
-		(pin "8"
-			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
-		)
-		(instances
-			(project "1801CPUTester"
-				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
-					(unit 4)
 				)
 			)
 		)
@@ -20898,7 +20550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1334ab55-171a-4e71-b0cc-aaefd7b35ae7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR039"
 			(at 294.64 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -20958,7 +20610,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR019")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -20976,7 +20628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1971f458-b0ff-4421-bd2c-17b74406f2ee")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 331.216 29.845 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21059,7 +20711,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -21193,7 +20845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c46030a-c4a7-4f07-9779-b61e7664565c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR021"
 			(at 173.355 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -21253,7 +20905,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR010")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -21271,7 +20923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf7aa24-d6fd-4de6-9872-6eafc9f13183")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR016"
 			(at 125.095 226.695 0)
 			(hide yes)
 			(show_name no)
@@ -21331,7 +20983,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR044")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21430,7 +21082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26510b0d-9a33-417e-9337-2e5cf75abecc")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 208.28 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21494,7 +21146,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -21512,7 +21164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2682c973-55ab-45a0-a891-392239ebcbe6")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 221.615 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21576,7 +21228,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -21594,7 +21246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aff8135-1e35-4e8a-b7bf-faf72ac2e0e8")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 261.62 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21658,7 +21310,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -21676,7 +21328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1af597-b965-4d4d-b3b7-0fa6969d511c")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 288.29 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21740,7 +21392,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -21758,7 +21410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c366767-536e-4ae7-80f3-a5ff4f098340")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 144.78 208.915 0)
 			(hide yes)
 			(show_name no)
@@ -21818,7 +21470,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21836,7 +21488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe9566f-e497-4f6b-b0eb-63333c62b2a1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR013"
 			(at 100.33 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -21896,7 +21548,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR028")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -21914,7 +21566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff5bc91-cf1c-4620-b0a8-e68276da1129")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 173.355 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21974,7 +21626,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -21992,7 +21644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e5d11e-cbc6-4a2b-82b3-60f91a2365e4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 116.205 236.855 0)
 			(hide yes)
 			(show_name no)
@@ -22052,8 +21704,124 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 87.63 207.645 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3511c5d2-28ff-4a68-a2fe-c684099a8fb7")
+		(property "Reference" "U2"
+			(at 87.63 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "155LP9"
+			(at 87.63 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 87.63 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 87.63 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 87.63 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
+		)
+		(pin "13"
+			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
+		)
+		(pin "12"
+			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
+		)
+		(pin "7"
+			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
+		)
+		(pin "9"
+			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
+		)
+		(pin "3"
+			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
+		)
+		(pin "5"
+			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
+		)
+		(pin "14"
+			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
+		)
+		(pin "6"
+			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
+		)
+		(pin "10"
+			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
+		)
+		(pin "2"
+			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
+		)
+		(pin "11"
+			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
+		)
+		(pin "4"
+			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
+		)
+		(pin "8"
+			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
+		)
+		(instances
+			(project "1801CPUTester"
+				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -22160,7 +21928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "371bc703-c42c-4eb0-b134-e8c66af897f8")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 248.285 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22224,7 +21992,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -22241,7 +22009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3793573b-824f-40a6-953e-c8026b127a27")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 147.193 230.759 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22339,7 +22107,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
+					(reference "U2")
 					(unit 6)
 				)
 			)
@@ -22519,7 +22287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d890d8b-c857-4227-9b45-d1441673f66d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR05"
 			(at 44.45 222.885 0)
 			(hide yes)
 			(show_name no)
@@ -22579,7 +22347,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR033")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -22597,7 +22365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4004366f-60dc-4a78-b5cd-20b9d723a434")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR040"
 			(at 294.64 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -22657,7 +22425,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR020")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -22676,7 +22444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42dfcaad-91a8-44ec-84a3-abc3cfe6f1e8")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 219.71 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22761,7 +22529,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22779,7 +22547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dfb9493-4e13-440d-9e5e-267de348160e")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 274.955 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22843,7 +22611,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22997,7 +22765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55206e94-6775-4619-ba46-daaa3bcc3c87")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 250.825 221.615 0)
 			(hide yes)
 			(show_name no)
@@ -23057,7 +22825,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -23164,7 +22932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c818c86-ca61-470f-8cfd-993c2ce1741a")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 296.418 109.093 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23294,7 +23062,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -23311,7 +23079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e6001b6-fc2e-4a80-98c1-5dfdbc78de7e")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 133.731 231.775 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23411,125 +23179,8 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U2")
+					(reference "U5")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS74")
-		(at 132.715 220.345 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e6001b6-fc2e-4a80-98c1-5dfdbc78de7e")
-		(property "Reference" "U2"
-			(at 134.62 208.915 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "155TM2"
-			(at 134.62 211.455 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 132.715 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 132.715 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
-			(at 132.715 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "66d70647-48ca-4300-b768-461532ae47b1")
-		)
-		(pin "8"
-			(uuid "24e52ac7-a01a-4526-91ad-582f44fd1f1b")
-		)
-		(pin "13"
-			(uuid "e547ff62-786d-4b2a-a413-41ceb92e4a76")
-		)
-		(pin "9"
-			(uuid "8b236c6e-1d7b-4b0c-ab76-15036d031c69")
-		)
-		(pin "3"
-			(uuid "1384bb15-a61c-49fa-a1ad-33c7fcc2c2cd")
-		)
-		(pin "12"
-			(uuid "5216de9e-5564-4222-aae2-1646cbc3a522")
-		)
-		(pin "1"
-			(uuid "700eb947-866e-4381-9398-7c3c32b9a0bc")
-		)
-		(pin "7"
-			(uuid "0e6ed28d-70a9-4e23-9d94-0ae61d8cbb83")
-		)
-		(pin "6"
-			(uuid "1fc341be-cb80-4fd3-bebf-71abae145ba0")
-		)
-		(pin "14"
-			(uuid "20921259-9ad8-41ab-b0c7-b874d4ef86ff")
-		)
-		(pin "5"
-			(uuid "7433b98c-8720-49b3-b4ca-4dd35e6abbd2")
-		)
-		(pin "2"
-			(uuid "96c46b29-97cf-48e8-9954-c861ed2a2b09")
-		)
-		(pin "4"
-			(uuid "3e41b0a4-1898-444b-bcd8-f0ccac3db6a2")
-		)
-		(pin "10"
-			(uuid "281e3d14-daeb-480a-95c6-9a52f387e8a8")
-		)
-		(instances
-			(project "1801CPUTester"
-				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U2")
-					(unit 1)
 				)
 			)
 		)
@@ -23546,7 +23197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6001b6-fc2e-4a80-98c1-5dfdbc78de7f")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 233.68 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23646,7 +23297,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U2")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -23664,7 +23315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eef6a4c-5c8c-4561-9a54-d601b5310158")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 274.955 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23728,7 +23379,123 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C15")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 87.63 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60b584f7-f9a6-4624-bd1a-c028fc01ebf0")
+		(property "Reference" "U2"
+			(at 87.63 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "155LP9"
+			(at 87.63 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 87.63 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 87.63 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 87.63 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
+		)
+		(pin "13"
+			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
+		)
+		(pin "12"
+			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
+		)
+		(pin "7"
+			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
+		)
+		(pin "9"
+			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
+		)
+		(pin "3"
+			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
+		)
+		(pin "5"
+			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
+		)
+		(pin "14"
+			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
+		)
+		(pin "6"
+			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
+		)
+		(pin "10"
+			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
+		)
+		(pin "2"
+			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
+		)
+		(pin "11"
+			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
+		)
+		(pin "4"
+			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
+		)
+		(pin "8"
+			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
+		)
+		(instances
+			(project "1801CPUTester"
+				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -23746,7 +23513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6105be22-5b0a-4f3f-a9b8-510d420ed1e3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 231.775 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -23806,8 +23573,124 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 87.63 220.345 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6215ec25-e508-46e5-ac48-2e8c1599e24b")
+		(property "Reference" "U2"
+			(at 87.63 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "155LP9"
+			(at 87.63 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 87.63 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 87.63 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
+			(at 87.63 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d519ce25-f044-43c1-b881-9820dc192a38")
+		)
+		(pin "13"
+			(uuid "97ea7962-7c68-404b-b5b3-273434be71d7")
+		)
+		(pin "12"
+			(uuid "220ba761-8f86-483b-bc89-5aebf300c6fd")
+		)
+		(pin "7"
+			(uuid "4b058470-73b9-4b9e-88c0-7280258c23dd")
+		)
+		(pin "9"
+			(uuid "c6951136-ab2c-439e-9aea-f22648add95b")
+		)
+		(pin "3"
+			(uuid "7b812a11-ec78-4f77-9c81-9f94bd808156")
+		)
+		(pin "5"
+			(uuid "ced5dd60-b853-4b68-a242-55fcac3cb0b5")
+		)
+		(pin "14"
+			(uuid "4db51073-5f92-47d9-9cc9-9b5b650fea23")
+		)
+		(pin "6"
+			(uuid "d1933cc6-6d6e-40ea-8391-5d441f6a99d0")
+		)
+		(pin "10"
+			(uuid "5f3cdd66-2024-454b-9cdb-0955284de9d5")
+		)
+		(pin "2"
+			(uuid "8a0fbabc-1765-401f-bcc0-2553e5999759")
+		)
+		(pin "11"
+			(uuid "9cab4027-6eed-40ee-8027-d27cfc55e4e1")
+		)
+		(pin "4"
+			(uuid "f3593777-d0ff-4643-8bf8-b11925a65255")
+		)
+		(pin "8"
+			(uuid "7060e0fa-f1de-4ff7-ac0d-cd6d7e7653f6")
+		)
+		(instances
+			(project "1801CPUTester"
+				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)
@@ -23824,7 +23707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62e2421e-ee80-424d-8982-044d6e42b5b5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 71.755 78.105 0)
 			(hide yes)
 			(show_name no)
@@ -23885,7 +23768,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -23903,7 +23786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64bd910f-4eb9-4eba-92d6-c00d39193f26")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR026"
 			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23963,7 +23846,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR041")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23981,7 +23864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69a4758f-6350-4609-9092-3733e56ab178")
-		(property "Reference" "RN3"
+		(property "Reference" "RN4"
 			(at 331.216 56.515 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24064,7 +23947,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "RN3")
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -24082,7 +23965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b714ac4-0b34-4d03-9ba4-fb90288cae74")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 155.575 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24142,7 +24025,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -24160,7 +24043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3e44b3-93bb-4fc7-b4d5-756aec19a470")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 234.95 249.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24224,7 +24107,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -24242,7 +24125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f736948-37b4-47fa-9431-b9baadb92f0f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR041"
 			(at 336.55 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -24302,7 +24185,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR024")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -24320,7 +24203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ec8c91-ff6c-492e-bc71-fec5d3f87a72")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 186.055 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -24380,7 +24263,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -24398,7 +24281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5af99a-58cb-4751-b89e-5385b7815e4a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR04"
 			(at 38.735 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -24458,7 +24341,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR030")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -24476,7 +24359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf17818-816d-4c5b-a93e-2e5da15e950a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR031"
 			(at 244.475 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -24536,7 +24419,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR039")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -24554,7 +24437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7deb553a-700c-4072-82af-957889b20d77")
-		(property "Reference" "RN4"
+		(property "Reference" "RN2"
 			(at 136.271 114.935 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24637,7 +24520,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "RN4")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -24655,7 +24538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f59be57-e86d-44ac-a5b6-a5d4456b1108")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR017"
 			(at 142.24 125.095 0)
 			(hide yes)
 			(show_name no)
@@ -24715,7 +24598,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR026")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -24899,7 +24782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ab31b6-b6e8-4ddd-baa8-d1c575539d62")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 221.615 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24963,7 +24846,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -24981,7 +24864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84783db7-cfe4-47b2-9c60-5234968b1276")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR024"
 			(at 186.055 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -25041,7 +24924,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR013")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -25059,7 +24942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87324592-0324-4ce5-b000-354d30d437aa")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 238.125 131.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25157,7 +25040,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U5")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -25175,7 +25058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87324592-0324-4ce5-b000-354d30d437ab")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 303.53 201.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25275,7 +25158,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U5")
+					(reference "U6")
 					(unit 4)
 				)
 			)
@@ -25293,7 +25176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87324592-0324-4ce5-b000-354d30d437ac")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 272.415 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25391,7 +25274,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U5")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -25409,7 +25292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87324592-0324-4ce5-b000-354d30d437ad")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 163.195 177.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25507,7 +25390,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -25525,7 +25408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89645649-57bd-4470-82e3-43e1fc7fe077")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR034"
 			(at 249.555 109.855 0)
 			(hide yes)
 			(show_name no)
@@ -25585,7 +25468,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR043")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -25603,7 +25486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c587c3b-aa9e-43d5-966c-0e54b827a92d")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 38.735 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25779,7 +25662,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -25797,7 +25680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c853d07-b296-497a-95b4-731ab3e0bbd2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 80.645 244.475 0)
 			(hide yes)
 			(show_name no)
@@ -25857,7 +25740,124 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR01")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS74")
+		(at 132.715 220.345 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "905fd0dd-4a8d-4566-8be0-364ef02cb000")
+		(property "Reference" "U5"
+			(at 134.62 208.915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "155TM2"
+			(at 134.62 211.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 132.715 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "74xx/74hc_hct74.pdf"
+			(at 132.715 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 132.715 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "66d70647-48ca-4300-b768-461532ae47b1")
+		)
+		(pin "8"
+			(uuid "24e52ac7-a01a-4526-91ad-582f44fd1f1b")
+		)
+		(pin "13"
+			(uuid "e547ff62-786d-4b2a-a413-41ceb92e4a76")
+		)
+		(pin "9"
+			(uuid "8b236c6e-1d7b-4b0c-ab76-15036d031c69")
+		)
+		(pin "3"
+			(uuid "1384bb15-a61c-49fa-a1ad-33c7fcc2c2cd")
+		)
+		(pin "12"
+			(uuid "5216de9e-5564-4222-aae2-1646cbc3a522")
+		)
+		(pin "1"
+			(uuid "700eb947-866e-4381-9398-7c3c32b9a0bc")
+		)
+		(pin "7"
+			(uuid "0e6ed28d-70a9-4e23-9d94-0ae61d8cbb83")
+		)
+		(pin "6"
+			(uuid "1fc341be-cb80-4fd3-bebf-71abae145ba0")
+		)
+		(pin "14"
+			(uuid "20921259-9ad8-41ab-b0c7-b874d4ef86ff")
+		)
+		(pin "5"
+			(uuid "7433b98c-8720-49b3-b4ca-4dd35e6abbd2")
+		)
+		(pin "2"
+			(uuid "96c46b29-97cf-48e8-9954-c861ed2a2b09")
+		)
+		(pin "4"
+			(uuid "3e41b0a4-1898-444b-bcd8-f0ccac3db6a2")
+		)
+		(pin "10"
+			(uuid "281e3d14-daeb-480a-95c6-9a52f387e8a8")
+		)
+		(instances
+			(project "1801CPUTester"
+				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -25875,7 +25875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c29127-471d-40bd-8ada-7a059a25caa7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR01"
 			(at 38.735 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -25935,7 +25935,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR032")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -26346,7 +26346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92cff734-b387-46fe-b003-166a7e5faa7c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR015"
 			(at 116.205 263.525 0)
 			(hide yes)
 			(show_name no)
@@ -26406,7 +26406,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -26503,6 +26503,122 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS05")
+		(at 107.315 194.31 0)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97e75c0b-9d1e-45ca-8f12-bc0988ccb6bc")
+		(property "Reference" "U4"
+			(at 107.315 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1533LN2"
+			(at 107.315 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 107.315 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS05"
+			(at 107.315 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inverter Open Collect"
+			(at 107.315 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "71f79da4-d6f8-42e6-a75f-be5b28f2b271")
+		)
+		(pin "14"
+			(uuid "9f6f9bb6-0a22-4c23-ac97-305f2e9e16fb")
+		)
+		(pin "3"
+			(uuid "9c6803e8-8c7d-4c77-9886-00159f1d5429")
+		)
+		(pin "10"
+			(uuid "66bd808a-135a-402a-86a5-40eca3cb767f")
+		)
+		(pin "11"
+			(uuid "05243250-23b3-4544-b5d1-766bb3316a0f")
+		)
+		(pin "9"
+			(uuid "4d5a20bb-3626-4cb3-8049-e09b6bac7da4")
+		)
+		(pin "12"
+			(uuid "9196afda-3850-4a35-861d-51d70e7a0c09")
+		)
+		(pin "8"
+			(uuid "9771f609-67ec-41cf-882a-7dd6b94bb4cc")
+		)
+		(pin "13"
+			(uuid "3a9d4e7b-dbb2-4339-a056-7d15bbe4f767")
+		)
+		(pin "1"
+			(uuid "10fdd7d9-9d21-4fb9-ba0a-de0d92d912ef")
+		)
+		(pin "2"
+			(uuid "836a344d-d61a-4b04-9bee-237e6611ee0e")
+		)
+		(pin "4"
+			(uuid "58f78f5c-df98-455e-bedb-eccb61142ab2")
+		)
+		(pin "5"
+			(uuid "c006d86d-0c8b-448e-940c-9901752908ba")
+		)
+		(pin "6"
+			(uuid "403c1b97-dd20-4b4e-994b-80cdd92539cd")
+		)
+		(instances
+			(project "1801CPUTester"
+				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
+					(reference "U4")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 185.42 0)
 		(unit 1)
@@ -26514,7 +26630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a5f535a-a592-4717-a1b5-d7006621298b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 45.72 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -26574,7 +26690,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -26593,7 +26709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4c2ce82-f6d4-4366-9b38-e32d56e10b9b")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 219.71 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26678,7 +26794,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -26786,7 +26902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60fbdf5-0fd0-478a-a09e-3d74a116fa4b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR042"
 			(at 339.09 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -26846,7 +26962,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR021")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -26863,7 +26979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9b9d27f-05c7-4dd1-93c9-2a234cb9b931")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR02"
 			(at 38.735 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -26923,7 +27039,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR031")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -27023,7 +27139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19fad85-b019-4288-bf65-ae7ee6fbdfe1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 294.64 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -27083,7 +27199,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27101,7 +27217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b233b093-8fc5-4753-90ef-d01f17a08484")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 107.315 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27199,7 +27315,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
+					(reference "U2")
 					(unit 5)
 				)
 			)
@@ -27217,7 +27333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b233b093-8fc5-4753-90ef-d01f17a08485")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 213.36 200.0249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27317,7 +27433,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U1")
+					(reference "U2")
 					(unit 7)
 				)
 			)
@@ -27335,7 +27451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b81344-2bcc-4b19-b3ee-600077135065")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR09"
 			(at 67.31 254.635 0)
 			(hide yes)
 			(show_name no)
@@ -27395,7 +27511,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR027")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -27413,7 +27529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b989ba16-77a0-459b-92f2-fbd05b5bb540")
-		(property "Reference" "RN1"
+		(property "Reference" "RN5"
 			(at 382.651 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27496,7 +27612,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "RN1")
+					(reference "RN5")
 					(unit 1)
 				)
 			)
@@ -27514,7 +27630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4d22fa-49ec-4346-a0ff-9d7aee0a067a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR033"
 			(at 244.475 260.985 0)
 			(hide yes)
 			(show_name no)
@@ -27574,7 +27690,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR040")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -27846,7 +27962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a2316a-2ca5-4dcc-828a-43a347433fbc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 250.825 191.135 0)
 			(hide yes)
 			(show_name no)
@@ -27906,7 +28022,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -27924,7 +28040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4054d7f-c5d4-4d08-935c-ba8df7ed12a2")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 248.285 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27988,7 +28104,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -28006,7 +28122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c76e7d7f-31b2-4dcb-8ff4-33664ed6cbad")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 255.905 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28091,7 +28207,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -28109,7 +28225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca6aa97-0db6-4d7b-9de2-c6ba82eec7de")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR030"
 			(at 244.475 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -28169,7 +28285,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR037")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -28287,122 +28403,6 @@
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS05")
-		(at 107.315 194.31 0)
-		(unit 6)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2e93d4b-b30e-4780-bdaf-a3a259b88ad1")
-		(property "Reference" "U4"
-			(at 107.315 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1533LN2"
-			(at 107.315 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 107.315 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS05"
-			(at 107.315 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inverter Open Collect"
-			(at 107.315 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "71f79da4-d6f8-42e6-a75f-be5b28f2b271")
-		)
-		(pin "14"
-			(uuid "9f6f9bb6-0a22-4c23-ac97-305f2e9e16fb")
-		)
-		(pin "3"
-			(uuid "9c6803e8-8c7d-4c77-9886-00159f1d5429")
-		)
-		(pin "10"
-			(uuid "66bd808a-135a-402a-86a5-40eca3cb767f")
-		)
-		(pin "11"
-			(uuid "05243250-23b3-4544-b5d1-766bb3316a0f")
-		)
-		(pin "9"
-			(uuid "4d5a20bb-3626-4cb3-8049-e09b6bac7da4")
-		)
-		(pin "12"
-			(uuid "9196afda-3850-4a35-861d-51d70e7a0c09")
-		)
-		(pin "8"
-			(uuid "9771f609-67ec-41cf-882a-7dd6b94bb4cc")
-		)
-		(pin "13"
-			(uuid "3a9d4e7b-dbb2-4339-a056-7d15bbe4f767")
-		)
-		(pin "1"
-			(uuid "10fdd7d9-9d21-4fb9-ba0a-de0d92d912ef")
-		)
-		(pin "2"
-			(uuid "836a344d-d61a-4b04-9bee-237e6611ee0e")
-		)
-		(pin "4"
-			(uuid "58f78f5c-df98-455e-bedb-eccb61142ab2")
-		)
-		(pin "5"
-			(uuid "c006d86d-0c8b-448e-940c-9901752908ba")
-		)
-		(pin "6"
-			(uuid "403c1b97-dd20-4b4e-994b-80cdd92539cd")
-		)
-		(instances
-			(project "1801CPUTester"
-				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U4")
-					(unit 6)
 				)
 			)
 		)
@@ -28651,7 +28651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3370673-60c3-452f-83b7-5723e22055c8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR043"
 			(at 339.09 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -28711,7 +28711,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR022")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -28728,7 +28728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5915cd9-f60f-4d0f-b4fd-dc56b828ac65")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR03"
 			(at 38.735 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -28788,7 +28788,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR029")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -28806,7 +28806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d599348a-6113-4ba9-95de-f772545e084a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR032"
 			(at 244.475 250.825 0)
 			(hide yes)
 			(show_name no)
@@ -28866,7 +28866,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR038")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -28988,7 +28988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf1220e-a654-4dea-b685-108e0a8f8209")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR029"
 			(at 231.775 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -29048,7 +29048,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR015")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -29065,7 +29065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df48fae1-f3b1-4e3c-9614-df1fe94e59a7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 186.055 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -29125,7 +29125,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -29143,7 +29143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fc0a36-3836-4d76-a234-f4b339e7c592")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 45.72 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -29203,7 +29203,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -29392,7 +29392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d1c52e-d7ea-41ba-829d-b09295cb80ec")
-		(property "Reference" "RN5"
+		(property "Reference" "RN1"
 			(at 94.361 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29475,7 +29475,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "RN5")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -29493,7 +29493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1d9a12-4c55-4ade-87e4-96748205a28c")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 341.2333 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29611,7 +29611,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -29945,7 +29945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18034ea-1495-402a-b7c7-ea2044fedc28")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR027"
 			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -30005,7 +30005,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR042")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -30106,7 +30106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f279e200-2692-4a63-a18a-e9415e422cb1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 186.055 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -30166,7 +30166,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -30183,7 +30183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3b82194-9458-4bf6-89d9-5097c60564d6")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 296.418 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30313,7 +30313,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -30330,7 +30330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f69c3a-d76b-47cd-999c-628d2a5d73e7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR044"
 			(at 387.985 141.605 0)
 			(hide yes)
 			(show_name no)
@@ -30390,7 +30390,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR023")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -30408,7 +30408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69369e7-11b6-49d0-a719-02f794a6fe4f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 80.645 263.525 0)
 			(hide yes)
 			(show_name no)
@@ -30468,7 +30468,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -30486,7 +30486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f74e90ba-5e1e-4d25-81a6-b4cc064c278e")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 261.62 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30550,7 +30550,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -30656,7 +30656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f942c448-ecda-4e4b-85ae-653748662fe7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 294.64 94.615 0)
 			(hide yes)
 			(show_name no)
@@ -30716,7 +30716,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR018")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -30824,7 +30824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff6ccfdc-d70e-4a39-ad7e-f56e6aaad6d6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR06"
 			(at 44.45 230.505 0)
 			(hide yes)
 			(show_name no)
@@ -30884,7 +30884,7 @@
 		(instances
 			(project "1801CPUTester"
 				(path "/73ec137b-9d21-4ba3-8d6a-f032f05f937c"
-					(reference "#PWR034")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
