@@ -13063,6 +13063,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 147.32) (xy 361.315 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083db645-79e8-4323-ac36-65811e33fd2e")
+	)
+	(wire
+		(pts
 			(xy 114.935 98.425) (xy 126.365 98.425)
 		)
 		(stroke
@@ -15503,7 +15513,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.315 145.415) (xy 361.315 147.32)
+			(xy 360.68 145.415) (xy 360.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -16033,7 +16043,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 145.415) (xy 361.315 145.415)
+			(xy 351.79 145.415) (xy 360.68 145.415)
 		)
 		(stroke
 			(width 0)
@@ -20029,7 +20039,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 141.605 180)
+		(at 365.125 141.605 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20039,7 +20049,7 @@
 		(dnp no)
 		(uuid "00a03d22-588f-410d-9c0c-6cc5eb1d0cce")
 		(property "Reference" "D2"
-			(at 363.22 138.43 0)
+			(at 367.03 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20049,7 +20059,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 138.43 0)
+			(at 363.22 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22150,7 +22160,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 165.1 180)
+		(at 365.125 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22160,7 +22170,7 @@
 		(dnp no)
 		(uuid "35559501-70ae-43b5-b41e-34a895ce448a")
 		(property "Reference" "D8"
-			(at 363.22 161.925 0)
+			(at 367.03 168.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22170,7 +22180,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 161.925 0)
+			(at 363.22 168.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23237,7 +23247,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 135.89 180)
+		(at 365.125 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23247,7 +23257,7 @@
 		(dnp no)
 		(uuid "58a539b7-a627-4baf-b4e9-ee51936f3fae")
 		(property "Reference" "D3"
-			(at 363.22 132.715 0)
+			(at 367.03 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23257,7 +23267,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 132.715 0)
+			(at 363.22 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26818,7 +26828,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 153.035 180)
+		(at 365.125 153.035 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26828,7 +26838,7 @@
 		(dnp no)
 		(uuid "9680af41-8ee9-4cc9-9aa5-bf2909994324")
 		(property "Reference" "D4"
-			(at 363.22 149.86 0)
+			(at 367.03 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26838,7 +26848,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 149.86 0)
+			(at 363.22 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27206,7 +27216,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 123.19 180)
+		(at 365.125 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27216,7 +27226,7 @@
 		(dnp no)
 		(uuid "a52c59e4-fef4-4a84-aa0e-f2bb9cdf69e7")
 		(property "Reference" "D7"
-			(at 363.22 118.745 0)
+			(at 367.03 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27226,7 +27236,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 366.7125 118.745 0)
+			(at 363.5375 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28186,7 +28196,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 129.54 180)
+		(at 365.125 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28196,7 +28206,7 @@
 		(dnp no)
 		(uuid "bc0f86d4-7df1-4c53-abf3-2f72f5e45133")
 		(property "Reference" "D5"
-			(at 363.22 126.365 0)
+			(at 367.03 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28206,7 +28216,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 126.365 0)
+			(at 363.22 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29699,7 +29709,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 158.75 180)
+		(at 365.125 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29709,7 +29719,7 @@
 		(dnp no)
 		(uuid "e37a4a98-cdc8-40ca-804e-aacdec0b57c8")
 		(property "Reference" "D6"
-			(at 363.22 155.575 0)
+			(at 367.03 161.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29719,7 +29729,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 155.575 0)
+			(at 363.22 161.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31135,7 +31145,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 365.125 147.32 180)
+		(at 365.125 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31145,7 +31155,7 @@
 		(dnp no)
 		(uuid "ff0f7516-517b-4e48-8874-e1262d9a3cf6")
 		(property "Reference" "D1"
-			(at 363.22 144.145 0)
+			(at 367.03 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31155,7 +31165,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 367.03 144.145 0)
+			(at 363.22 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
