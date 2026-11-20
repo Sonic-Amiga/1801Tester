@@ -20291,7 +20291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS138"
+		(property "Value" "1533ID7"
 			(at 233.9183 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20405,7 +20405,7 @@
 		(fields_autoplaced yes)
 		(uuid "081fd852-9201-45b0-a813-bcaf8eda0bde")
 		(property "Reference" "U1"
-			(at 40.8783 108.585 0)
+			(at 40.8783 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20415,8 +20415,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS193"
-			(at 40.8783 111.125 0)
+		(property "Value" "1533IE7"
+			(at 40.8783 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23362,7 +23362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2716"
+		(property "Value" "573РФ2"
 			(at 292.1 127.127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25371,7 +25371,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS27"
+		(property "Value" "1533LE4"
 			(at 238.125 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25488,7 +25488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS27"
+		(property "Value" "1533LE4"
 			(at 303.53 203.8349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25605,7 +25605,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS27"
+		(property "Value" "1533LE4"
 			(at 272.415 151.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25712,7 +25712,7 @@
 		(fields_autoplaced yes)
 		(uuid "87324592-0324-4ce5-b000-354d30d437ad")
 		(property "Reference" "U6"
-			(at 163.195 177.165 0)
+			(at 163.195 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25721,8 +25721,8 @@
 				)
 			)
 		)
-		(property "Value" "74LS27"
-			(at 163.195 179.705 0)
+		(property "Value" "1533LE4"
+			(at 163.195 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30007,7 +30007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS273"
+		(property "Value" "1533IR35"
 			(at 341.2333 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30697,7 +30697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2716"
+		(property "Value" "573РФ2"
 			(at 292.1 64.897 0)
 			(show_name no)
 			(do_not_autoplace no)
